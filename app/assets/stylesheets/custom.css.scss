@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+	body {
+		padding-top: 60px;
+	}
+	.container {
+		max-width: 730px;
+	}
+	.linediv-l {
+		border-right: 1px white solid;
+	}
+	.linediv-r {
+		border-left: 1px white solid;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.copy {
+		padding: 2.5% 10%;
+	}
+	.linediv-l {
+		border-bottom: 1px white solid;
+	}
+	.linediv-r {
+		border-top: 1px white solid;
+	}
+}
