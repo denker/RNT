@@ -12,6 +12,9 @@ ReNewText::Application.routes.draw do
   get "rewrite" => "static_pages#rewrite"
   get "contacts" => "static_pages#contacts"
   get "free" => "static_pages#free"
+  get "prices" => "static_pages#prices"
+
+  post "free" => "requests#create", :as => 'create_request'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ReNewText | <%= yield(:title) %></title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+ <title>ReNewText | <%= yield(:title) %></title>
+ <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+ <%= stylesheet_link_tag "http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic", media: "all" %>
+ <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+ <%= csrf_meta_tags %>
       <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-</head>
-<body>
-        <div class="container">
-        	<%= render 'layouts/header' %>
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-    </div>
-</body>
-</html>
+  </head>
+  <body>
+  <%= render 'layouts/popupform' %>
+    <div class="container">
+     <%= render 'layouts/header' %>
+     <%= yield %>
+     <%= render 'layouts/footer' %>
+   </div>
+ </body>
+ </html>

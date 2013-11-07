@@ -1,0 +1,26 @@
+<div class="jumbotron">
+<h1>Стоимость под ваш бюджет</h1>
+	<p class="lead">Выберите те условия, которые подходят вашим задачам и бюджету.</p>	
+</div>
+
+<div class="row">
+	<% @price_plans.each do |price_plan| %>
+	<div class="col-md-4">
+		<div class="panel panel-<%= price_plan[:style] %>">
+			<div class="panel-heading"><h3 class="text-center"><%= price_plan[:name] %></h3></div>
+			<div class="panel-body text-center">
+				<p class="lead price"><strong><%= price_plan[:price]%> <span class="rur">p<span>уб.</span></span></strong></p>
+				<p>за 1000 знаков</p>
+			</div>
+			<ul class="list-group list-group-flush text-center">
+				<li class="list-group-item"><i class="icon-ok text-danger"></i> <%= price_plan[:prop1]%></li>
+				<li class="list-group-item"><i class="icon-ok text-danger"></i> <%= price_plan[:prop2]%></li>
+				<li class="list-group-item"><i class="icon-ok text-danger"></i><%= price_plan[:prop3]%></li>
+			</ul>
+			<div class="panel-footer">
+				<a class="btn btn-lg btn-block btn-<%= price_plan[:style] %>" href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY NOW!</a>
+			</div>
+		</div>
+	</div>	
+	<% end %>
+</div>

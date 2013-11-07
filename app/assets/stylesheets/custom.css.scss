@@ -1,9 +1,9 @@
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 	body {
 		padding-top: 60px;
 	}
 	.container {
-		max-width: 730px;
+		max-width: 800px;
 	}
 	.linediv-l {
 		border-right: 1px white solid;
@@ -24,4 +24,24 @@
 	.linediv-r {
 		border-top: 1px white solid;
 	}
+}
+
+.price {
+	font-family: Ubuntu;
+	font-size: 3em;
+	margin-bottom: 4px;
+}
+
+@font-face {
+	font-family: "Rubl Sign"; src: url(/ruble.eot); 
+}
+
+span.rur { 
+	font-family: "Rubl Sign"; text-transform: uppercase;
+}    
+span.rur span { 
+	position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; 
+}
+span.rur span:before { 
+	content: '\2013'; 
 }
