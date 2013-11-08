@@ -1,64 +1,36 @@
 class RequestsController < ApplicationController
+  before_action :load
   before_action :set_request, only: [:show, :edit, :update, :destroy]
 
-  # GET /requests
-  # GET /requests.json
+  def open_popup
+  end
+  
   def index
-    @requests = Request.all
   end
 
-  # GET /requests/1
-  # GET /requests/1.json
-  def show
-  end
-
-  # GET /requests/new
-  def new
-    @request = Request.new
-  end
-
-  # GET /requests/1/edit
   def edit
+    puts @request.id
   end
 
-  # POST /requests
-  # POST /requests.json
   def create
-    @request = Request.new(request_params)
-
-    respond_to do |format|
-      if @request.save
-        format.html { redirect_to @request, notice: 'Request was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @request }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @request.errors, status: :unprocessable_entity }
-      end
+    @request = Request.new(request_params)    
+    if @request.save
+      flash[:notice] = "Successfully created request."
+      @requests = Request.all
     end
   end
 
-  # PATCH/PUT /requests/1
-  # PATCH/PUT /requests/1.json
   def update
-    respond_to do |format|
-      if @request.update(request_params)
-        format.html { redirect_to @request, notice: 'Request was successfully updated.' }
-        format.json { head :no_content }
-      else
-        format.html { render action: 'edit' }
-        format.json { render json: @request.errors, status: :unprocessable_entity }
-      end
+    if @request.update(request_params)
+      flash[:notice] = "Request was successfully updated." 
+      @requests = Request.all
     end
   end
 
-  # DELETE /requests/1
-  # DELETE /requests/1.json
   def destroy
-    @request.destroy
-    respond_to do |format|
-      format.html { redirect_to requests_url }
-      format.json { head :no_content }
-    end
+    @request.destroy    
+    flash[:notice] = "Request destroyed."
+    @requests = Request.all
   end
 
   private
@@ -71,4 +43,10 @@ class RequestsController < ApplicationController
     def request_params
       params.require(:request).permit(:name, :phone, :email, :comment)
     end
-end
+
+    def load
+      @requests = Request.all
+      @request = Request.new
+    end
+  end
+

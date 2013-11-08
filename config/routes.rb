@@ -2,6 +2,9 @@ ReNewText::Application.routes.draw do
   
   resources :requests
 
+  get "test_partial" => 'requests#test_partial'
+  get "open_popup" => 'requests#open_popup'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -13,8 +16,9 @@ ReNewText::Application.routes.draw do
   get "contacts" => "static_pages#contacts"
   get "free" => "static_pages#free"
   get "prices" => "static_pages#prices"
+  get "test" => "static_pages#test"
 
-  post "free" => "requests#create", :as => 'create_request'
+  #get "requests/add_request" => 'requests#add_request', :as => :add_request
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

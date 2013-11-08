@@ -1,0 +1,30 @@
+<% if @request.errors.any? %>
+	/* Hide flash notice div */
+	$("#flash_notice").hide(300);
+
+	/* Update the html of the div request_errors with new one */
+	<% error_messages = 'Some errors' %>
+	<%# @request.errors.each do |message| {error_messages += "<p>#{message}</p>"} %>
+	$("#request_errors").html("<%=j error_messages %>");
+
+	/* Show the div request_errors */
+	$("#request_errors").show(300);
+
+<% else %>
+
+	/* Hide errors */
+	$("#request_errors").hide(300);
+
+	/* Update the html with of the div flash_notice with the new one */
+	$("flash_notice").html("<%=j flash[:notice] %>")
+
+	/* Show the flash_notice div */
+	$("#flash_notice").show(300);
+
+	/* Clear the form */
+	$(":input:not(input[type=submit])").val("");
+
+	/* Replace the html of the div request_lists with the updated new one */
+	$("#list").html("<%=j render 'requests/requests' %>")
+
+<% end %>

@@ -1,33 +1,9 @@
-<h1>Listing requests</h1>
+<%= provide(:title, 'Requests') %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Phone</th>
-      <th>Email</th>
-      <th>Comment</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<div id="list"><%= render 'requests/requests' %></div>
 
-  <tbody>
-    <% @requests.each do |request| %>
-      <tr>
-        <td><%= request.name %></td>
-        <td><%= request.phone %></td>
-        <td><%= request.email %></td>
-        <td><%= request.comment %></td>
-        <td><%= link_to 'Show', request %></td>
-        <td><%= link_to 'Edit', edit_request_path(request) %></td>
-        <td><%= link_to 'Destroy', request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<br />
 
-<br>
 
-<%= link_to 'New Request', new_request_path %>
+<%= link_to "Send request", open_popup_path, remote: true, data: { toggle: 'modal', target: '#popUp'}, :class => "btn btn-primary btn-lg" %>
+<div id="div_id"></div>

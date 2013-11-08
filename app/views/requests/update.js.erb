@@ -1,0 +1,11 @@
+<% if @request.errors.any? %>
+  $("#flash_notice").hide(300);
+  $("#request_errors").html("Some errors");
+  $("#request_errors").show(300);
+<% else %>
+  $("#request_errors").hide(300);
+  $("#flash_notice").html("<%=j flash[:notice] %>");
+  $("#flash_notice").show(300);
+  $(":input:not(input[type=submit])").val("");
+  $("#list").html("<%=j render "requests/requests" %>");
+<% end %>
