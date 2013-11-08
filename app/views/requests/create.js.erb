@@ -27,4 +27,7 @@
 	/* Replace the html of the div request_lists with the updated new one */
 	$("#list").html("<%=j render 'requests/requests' %>")
 
+	/* Hide popup after saving new request */
+	$('#popUp').modal('hide');
+
 <% end %>

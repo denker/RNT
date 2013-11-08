@@ -13,6 +13,9 @@
 	.linediv-r {
 		border-left: 1px white solid;
 	}
+	.modal-dialog {
+   		width: 520px;
+   	}
 }
 
 /* Landscape phones and down */
@@ -48,4 +51,12 @@ span.rur span:before {
 	content: '\2013'; 
 }
 
+label {
+	line-height: 34px;
+	v-align: center;
+	float: right;
+}
 
+.labels {
+	padding-right: 0px;
+}

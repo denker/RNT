@@ -4,12 +4,14 @@ class RequestsController < ApplicationController
 
   def open_popup
   end
+
+  def close_popup
+  end
   
   def index
   end
 
   def edit
-    puts @request.id
   end
 
   def create

@@ -2,15 +2,9 @@ ReNewText::Application.routes.draw do
   
   resources :requests
 
-  get "test_partial" => 'requests#test_partial'
-  get "open_popup" => 'requests#open_popup'
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
   root 'static_pages#home'
 
+  get "open_popup" => 'requests#open_popup'
   get "home" => 'static_pages#home'
   get "rewrite" => "static_pages#rewrite"
   get "contacts" => "static_pages#contacts"
