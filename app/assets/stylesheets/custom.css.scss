@@ -1,8 +1,23 @@
 @import "bootstrap";
 
+
+
 @media (min-width: 800px) {
 	body {
-		padding-top: 60px;
+		background-image: url('/assets/jumbo2.jpg');
+		position: relative;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	nav {
+		margin-top: 20px;
+	}
+	label {
+		line-height: 34px;
+		vertical-align: center;
+		float: right;
 	}
 	.container {
 		max-width: 800px;
@@ -14,8 +29,11 @@
 		border-left: 1px white solid;
 	}
 	.modal-dialog {
-   		width: 520px;
-   	}
+		width: 520px;
+	}
+	.modal-footer {
+		margin-top: 0px;
+	}
 }
 
 /* Landscape phones and down */
@@ -31,6 +49,10 @@
 	}
 }
 
+.container {
+	background-color: #FFFFFF;
+}
+
 .price {
 	font-family: Ubuntu;
 	font-size: 3em;
@@ -42,21 +64,34 @@
 }
 
 span.rur { 
-	font-family: "Rubl Sign"; text-transform: uppercase;
+	font-family: "Rubl Sign";
+	text-transform: uppercase;
 }    
 span.rur span { 
-	position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; 
+	position: absolute;
+	overflow: hidden;
+	width: .45em;
+	height: 1em;
+	margin: .1ex 0 0 -.55em;
 }
+
 span.rur span:before { 
 	content: '\2013'; 
 }
 
-label {
-	line-height: 34px;
-	v-align: center;
-	float: right;
+.form-labels {
+	padding-right: 0px;
 }
 
-.labels {
-	padding-right: 0px;
+img.illustration {
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
 }

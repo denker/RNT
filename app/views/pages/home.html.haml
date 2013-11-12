@@ -1,0 +1,12 @@
+- provide(:title, 'Самое важное')
+.jumbotron
+	%h1 Максимальный рерайт!
+	%p.lead Мы сделаем рерайт 300 тысяч знаков за сутки!
+	= render 'button_custom'
+
+.row
+	- @tiles.each do |tile|
+		.col-lg-6
+			%h2= tile[:header]
+			%p= tile[:body]
+			= render 'button_primary'

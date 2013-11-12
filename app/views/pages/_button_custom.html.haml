@@ -1,0 +1,2 @@
+%p
+	= link_to @button[:text], open_popup_path(@button[:params]), remote: true, data: { toggle: 'modal', target: '#popUp'}, class: "btn btn-#{@button[:color]} #{@button[:size]} #{@button[:id]}".strip, role: "button"

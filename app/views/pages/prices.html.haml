@@ -1,0 +1,22 @@
+.jumbotron
+	%h1 Стоимость под ваш бюджет
+	%p.lead Выберите те условия, которые подходят вашим задачам и бюджету.
+
+.row
+	- @price_plans.each do |price_plan|
+		.col-md-4
+			%div{:class => "panel panel-#{price_plan[:style]}"}
+				.panel-heading
+					%h3.text-center= price_plan[:name]
+				.panel-body.text-center
+					%p.lead.price
+						%strong= price_plan[:price]
+						%span.rur p<span>уб.</span>
+						%p за 1000 знаков
+				%ul.list-group.list-group-flush.text-center
+					%li.list-group-item= price_plan[:prop1]
+					%li.list-group-item= price_plan[:prop2]
+					%li.list-group-item= price_plan[:prop3]
+				.panel-footer
+					- @button = price_plan[:button]
+					= render 'button_custom'

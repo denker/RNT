@@ -11,7 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131105143219) do
+ActiveRecord::Schema.define(version: 20131111084533) do
+
+  create_table "page_contents", force: true do |t|
+    t.integer  "page_id"
+    t.string   "type"
+    t.integer  "order"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "button"
+  end
+
+  create_table "pages", force: true do |t|
+    t.string   "page_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "requests", force: true do |t|
     t.string   "name"
@@ -20,6 +36,8 @@ ActiveRecord::Schema.define(version: 20131105143219) do
     t.string   "comment"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "price_plan"
+    t.text     "test_text"
   end
 
 end

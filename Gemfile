@@ -16,6 +16,9 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'haml-rails'
+gem 'redcarpet' # markdown library
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass'

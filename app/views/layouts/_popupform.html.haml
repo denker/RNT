@@ -1,0 +1,7 @@
+.modal.fade{:id=>"popUp", :tabindex=>"-1", :role=>"dialog", 'aria-labelledby'=>"myModalLabel", 'aria-hidden'=>"true"}
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{:type => "button", 'data-dismiss' => "modal", 'aria-hidden' => "true"} &times;
+        %h4.modal-title Напишите ваше имя и телефон
+      .container{:id=>"popup_content"}

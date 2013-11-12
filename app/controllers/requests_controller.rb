@@ -1,13 +1,13 @@
+include RequestsHelper
+
 class RequestsController < ApplicationController
   before_action :load
   before_action :set_request, only: [:show, :edit, :update, :destroy]
 
   def open_popup
+    @fields = make_field_set(params)
   end
 
-  def close_popup
-  end
-  
   def index
   end
 
@@ -51,4 +51,3 @@ class RequestsController < ApplicationController
       @request = Request.new
     end
   end
-

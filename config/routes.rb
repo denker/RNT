@@ -2,17 +2,11 @@ ReNewText::Application.routes.draw do
   
   resources :requests
 
-  root 'static_pages#home'
+  root 'pages#home'
 
   get "open_popup" => 'requests#open_popup'
-  get "home" => 'static_pages#home'
-  get "rewrite" => "static_pages#rewrite"
-  get "contacts" => "static_pages#contacts"
-  get "free" => "static_pages#free"
-  get "prices" => "static_pages#prices"
-  get "test" => "static_pages#test"
-
-  #get "requests/add_request" => 'requests#add_request', :as => :add_request
+  
+  get "pages/:action", controller: "pages"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
