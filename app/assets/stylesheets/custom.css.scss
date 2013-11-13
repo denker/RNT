@@ -11,6 +11,11 @@
 		background-size: cover;
 		background-attachment: fixed;
 	}
+	.main-page {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
 	nav {
 		margin-top: 20px;
 	}
@@ -94,4 +99,10 @@ img.illustration {
 .jumbotron .btn {
 	font-size: 21px;
 	padding: 14px 24px;
+}
+
+.testimonial {
+	.panel-footer {
+		text-align: right;
+	}
 }

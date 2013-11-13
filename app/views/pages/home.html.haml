@@ -1,12 +1,31 @@
 - provide(:title, 'Самое важное')
+/ броское начало
 .jumbotron
 	%h1 Максимальный рерайт!
 	%p.lead Мы сделаем рерайт 300 тысяч знаков за сутки!
 	= render 'button_custom'
 
+/ преимущества
 .row
 	- @tiles.each do |tile|
 		.col-lg-6
 			%h2= tile[:header]
 			%p= tile[:body]
 			= render 'button_primary'
+
+/ отзывы
+- if @testimonials.size > 2
+	.row
+		%h2.main-page Про нас говорят
+	.row
+		- middle_number = (@testimonials.size - 1) / 2
+		- columns = [(0..middle_number), ((middle_number + 1)..@testimonials.size - 1)]
+		- puts columns
+		- columns.each do |column|
+			.col-lg-6
+				- column.each do |id|
+					.panel.panel-default.testimonial
+						.panel-body
+							%p= @testimonials[id].text
+						.panel-footer
+							%p= @testimonials[id].customer_name
