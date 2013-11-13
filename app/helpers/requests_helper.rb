@@ -1,4 +1,4 @@
-module RequestsHelper
+﻿module RequestsHelper
 
 	def default_field_set
 		[

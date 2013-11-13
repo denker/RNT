@@ -13,6 +13,15 @@
 			%p= tile[:body]
 			= render 'button_primary'
 
+/ примеры работ
+
+.row
+	%h2.main-page Наша работа
+.row
+	.col-lg-6
+		= @job.first 
+	.col-lg-6
+		= @job.last
 / отзывы
 - if @testimonials.size > 1
 	.row

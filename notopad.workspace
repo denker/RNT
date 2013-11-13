@@ -1,0 +1,620 @@
+<NotepadPlus>
+    <Project name="Project Name">
+        <Folder name=".git">
+            <Folder name="branches" />
+            <Folder name="hooks">
+                <File name=".git\hooks\applypatch-msg.sample" />
+                <File name=".git\hooks\commit-msg.sample" />
+                <File name=".git\hooks\post-update.sample" />
+                <File name=".git\hooks\pre-applypatch.sample" />
+                <File name=".git\hooks\pre-commit.sample" />
+                <File name=".git\hooks\pre-push.sample" />
+                <File name=".git\hooks\pre-rebase.sample" />
+                <File name=".git\hooks\prepare-commit-msg.sample" />
+                <File name=".git\hooks\update.sample" />
+            </Folder>
+            <Folder name="info">
+                <File name=".git\info\exclude" />
+            </Folder>
+            <Folder name="logs">
+                <Folder name="refs">
+                    <Folder name="heads">
+                        <File name=".git\logs\refs\heads\add-testimonials" />
+                        <File name=".git\logs\refs\heads\dropbox-expetiments" />
+                        <File name=".git\logs\refs\heads\help" />
+                        <File name=".git\logs\refs\heads\master" />
+                        <File name=".git\logs\refs\heads\renew-rails" />
+                    </Folder>
+                    <Folder name="remotes">
+                        <Folder name="heroku">
+                            <File name=".git\logs\refs\remotes\heroku\master" />
+                        </Folder>
+                        <Folder name="origin">
+                            <File name=".git\logs\refs\remotes\origin\add-testimonials" />
+                            <File name=".git\logs\refs\remotes\origin\dropbox-expetiments" />
+                            <File name=".git\logs\refs\remotes\origin\HEAD" />
+                            <File name=".git\logs\refs\remotes\origin\master" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <File name=".git\logs\HEAD" />
+            </Folder>
+            <Folder name="objects">
+                <Folder name="00">
+                    <File name=".git\objects\00\af43bd824b9a61c10730b6e1271018eef009f4" />
+                </Folder>
+                <Folder name="06">
+                    <File name=".git\objects\06\8662cebcc370e7402ae3c19ea0603e778218e7" />
+                </Folder>
+                <Folder name="0a">
+                    <File name=".git\objects\0a\158cc2918096085c5ae8b57eaf75fdf1065d46" />
+                </Folder>
+                <Folder name="0b">
+                    <File name=".git\objects\0b\433ed32caada90cb155582fa343aafa8c02456" />
+                </Folder>
+                <Folder name="0d">
+                    <File name=".git\objects\0d\f13e995b9e25449dbe5309898885c1d2615e4a" />
+                </Folder>
+                <Folder name="0e">
+                    <File name=".git\objects\0e\6cdbf3b30f5df12fd3bd1088fc30c40a9f76e8" />
+                </Folder>
+                <Folder name="18">
+                    <File name=".git\objects\18\9aa04999ff105874fb575e528ddebda88bdd88" />
+                </Folder>
+                <Folder name="1a">
+                    <File name=".git\objects\1a\1018e11b9656322a5ea136ac61971bdb86b6ff" />
+                </Folder>
+                <Folder name="1f">
+                    <File name=".git\objects\1f\424b280ffd60c46cc68369204d450c68a1dd55" />
+                    <File name=".git\objects\1f\ecee7dc98aa9504c03656688a8603e2088512c" />
+                </Folder>
+                <Folder name="27">
+                    <File name=".git\objects\27\cec270ca7385474162c155aa4f9c3ab598ae81" />
+                </Folder>
+                <Folder name="28">
+                    <File name=".git\objects\28\b3bb5ac750c685a627452e9c48aca3bdac0d77" />
+                </Folder>
+                <Folder name="29">
+                    <File name=".git\objects\29\dbe7d8b592ca7257ca1bb88aa1b0864590a4ba" />
+                </Folder>
+                <Folder name="2e">
+                    <File name=".git\objects\2e\c37e2e0cb2e5a94d81c6368547e410bfa8d67d" />
+                </Folder>
+                <Folder name="33">
+                    <File name=".git\objects\33\79b47d8cd8186854bbfa3180c3db4a4be75907" />
+                </Folder>
+                <Folder name="36">
+                    <File name=".git\objects\36\0281cb4cb535d8de2af508621693af425fd48d" />
+                </Folder>
+                <Folder name="39">
+                    <File name=".git\objects\39\3ad0d10115abe41085bdfa5cd14764d8b6e973" />
+                </Folder>
+                <Folder name="3a">
+                    <File name=".git\objects\3a\f49d91094f34258ac80ced2dab3948c0686e90" />
+                </Folder>
+                <Folder name="3b">
+                    <File name=".git\objects\3b\b427cbbbf351cfeab8806ef70f31b5cd95bedc" />
+                </Folder>
+                <Folder name="44">
+                    <File name=".git\objects\44\8f013145cf3e6533c4d4f3a92d5af3451d2fee" />
+                </Folder>
+                <Folder name="49">
+                    <File name=".git\objects\49\b36497380e5f756cb1a2024da3c831d908ff8f" />
+                </Folder>
+                <Folder name="52">
+                    <File name=".git\objects\52\0b5841751035721da8f904fd5142d6c6a949d8" />
+                </Folder>
+                <Folder name="55">
+                    <File name=".git\objects\55\be5ee479637e0dd2fa8cef88cbd0ccf686e550" />
+                </Folder>
+                <Folder name="57">
+                    <File name=".git\objects\57\8fd89aea563ccd483fd536ac333f7f5b2b5e3d" />
+                    <File name=".git\objects\57\be140017fd0484d269b0b4e1c18363a074b3d0" />
+                </Folder>
+                <Folder name="59">
+                    <File name=".git\objects\59\ee2699a515c3d9d82f0b32cf50877e7dd0b285" />
+                </Folder>
+                <Folder name="5c">
+                    <File name=".git\objects\5c\8e9fd402543e21dd1e0a47486e58cc585391d0" />
+                </Folder>
+                <Folder name="67">
+                    <File name=".git\objects\67\af7b3ea894c2ae7b8ecefe187d5adce0b2a4d1" />
+                </Folder>
+                <Folder name="71">
+                    <File name=".git\objects\71\caa81589ee38701a87ba44c6a5465823d2b0b9" />
+                </Folder>
+                <Folder name="7a">
+                    <File name=".git\objects\7a\b97492b63ecaff163a0fa7951aa9de7815038d" />
+                </Folder>
+                <Folder name="7f">
+                    <File name=".git\objects\7f\dca67ab498a8fc1f92313a92f34ba3e4810a23" />
+                </Folder>
+                <Folder name="80">
+                    <File name=".git\objects\80\23f49419cbc933c8a0ef42a2e94c3ba91be655" />
+                </Folder>
+                <Folder name="83">
+                    <File name=".git\objects\83\e5a4fb53f0e39abc59cd7fdb4f934b5cb6339c" />
+                </Folder>
+                <Folder name="84">
+                    <File name=".git\objects\84\ce83eebcbe4427e4419510f8073f465e608c42" />
+                </Folder>
+                <Folder name="8f">
+                    <File name=".git\objects\8f\5315c1d19e617475c2371dc663b6ff8584cbcb" />
+                </Folder>
+                <Folder name="93">
+                    <File name=".git\objects\93\766bb74a7b5ffd614d842f1ad46673fbddff0e" />
+                </Folder>
+                <Folder name="98">
+                    <File name=".git\objects\98\88f0bff51606a24d2cf94bb8153f10142bbd27" />
+                </Folder>
+                <Folder name="a2">
+                    <File name=".git\objects\a2\161259140b68ef9856efcd07f11e291006c93c" />
+                </Folder>
+                <Folder name="a4">
+                    <File name=".git\objects\a4\591ac7a4fe35e99d64962a4e1e6393d29416d1" />
+                    <File name=".git\objects\a4\e10a2a9c8707e755625ab5fdcd4dd20936229f" />
+                </Folder>
+                <Folder name="a7">
+                    <File name=".git\objects\a7\e821a330a931d496881950af1c4ffafdf9b3c6" />
+                </Folder>
+                <Folder name="b6">
+                    <File name=".git\objects\b6\776aa09fa41583b69069484283bd5621c0fa00" />
+                </Folder>
+                <Folder name="b7">
+                    <File name=".git\objects\b7\dfc8da70f8aa217b0d83964613884ec7b68cc7" />
+                </Folder>
+                <Folder name="b8">
+                    <File name=".git\objects\b8\7ed1330aaca502739eb4bf6ad3c13ce0d63536" />
+                </Folder>
+                <Folder name="c3">
+                    <File name=".git\objects\c3\2886fb609bce94341c8daf38b4cc52e726c63b" />
+                </Folder>
+                <Folder name="c5">
+                    <File name=".git\objects\c5\323fffec545bd22ceac188edef29b566445374" />
+                    <File name=".git\objects\c5\e764350485d3b8408ae15f1fec896bd15b61a8" />
+                </Folder>
+                <Folder name="c8">
+                    <File name=".git\objects\c8\7d41a5cec424d99aa790d0361d482d0d51a428" />
+                </Folder>
+                <Folder name="d1">
+                    <File name=".git\objects\d1\5352cf6ee123ccc1a44d44996d1bb6bb3d831e" />
+                </Folder>
+                <Folder name="d4">
+                    <File name=".git\objects\d4\f199491453d8f7970ccb6312f19ad74052d51a" />
+                </Folder>
+                <Folder name="e2">
+                    <File name=".git\objects\e2\f6784f498d7e69c7c37e718511b016edc52bab" />
+                </Folder>
+                <Folder name="e5">
+                    <File name=".git\objects\e5\a5e0b245dad546f3fc72f1cecf78494b3d4f87" />
+                </Folder>
+                <Folder name="f2">
+                    <File name=".git\objects\f2\5dfeba20125b51072774b107f5d2950bb531ad" />
+                </Folder>
+                <Folder name="f5">
+                    <File name=".git\objects\f5\83de53c996d540b2a435c57a8cf259cc40a636" />
+                </Folder>
+                <Folder name="f6">
+                    <File name=".git\objects\f6\66afcabe3ad0174a530ed0101cbb443048b5f7" />
+                </Folder>
+                <Folder name="info" />
+                <Folder name="pack">
+                    <File name=".git\objects\pack\pack-0414cad6b78ea25a211dc3989be1b87b826e76fb.idx" />
+                    <File name=".git\objects\pack\pack-0414cad6b78ea25a211dc3989be1b87b826e76fb.pack" />
+                </Folder>
+            </Folder>
+            <Folder name="refs">
+                <Folder name="heads">
+                    <File name=".git\refs\heads\add-testimonials" />
+                    <File name=".git\refs\heads\dropbox-expetiments" />
+                    <File name=".git\refs\heads\help" />
+                    <File name=".git\refs\heads\master" />
+                    <File name=".git\refs\heads\renew-rails" />
+                </Folder>
+                <Folder name="remotes">
+                    <Folder name="heroku">
+                        <File name=".git\refs\remotes\heroku\master" />
+                    </Folder>
+                    <Folder name="origin">
+                        <File name=".git\refs\remotes\origin\add-testimonials" />
+                        <File name=".git\refs\remotes\origin\dropbox-expetiments" />
+                        <File name=".git\refs\remotes\origin\HEAD" />
+                        <File name=".git\refs\remotes\origin\master" />
+                    </Folder>
+                </Folder>
+                <Folder name="tags" />
+            </Folder>
+            <File name=".git\COMMIT_EDITMSG" />
+            <File name=".git\config" />
+            <File name=".git\description" />
+            <File name=".git\FETCH_HEAD" />
+            <File name=".git\HEAD" />
+            <File name=".git\index" />
+            <File name=".git\MERGE_MSG~" />
+            <File name=".git\ORIG_HEAD" />
+            <File name=".git\packed-refs" />
+        </Folder>
+        <Folder name="app">
+            <Folder name="assets">
+                <Folder name="fonts">
+                    <File name="app\assets\fonts\glyphicons-halflings-regular.eot" />
+                    <File name="app\assets\fonts\glyphicons-halflings-regular.svg" />
+                    <File name="app\assets\fonts\glyphicons-halflings-regular.ttf" />
+                    <File name="app\assets\fonts\glyphicons-halflings-regular.woff" />
+                    <File name="app\assets\fonts\ruble.eot" />
+                </Folder>
+                <Folder name="images">
+                    <File name="app\assets\images\.keep" />
+                    <File name="app\assets\images\jumbo1.png" />
+                    <File name="app\assets\images\jumbo1big.jpg" />
+                    <File name="app\assets\images\jumbo1big.png" />
+                    <File name="app\assets\images\jumbo2.jpg" />
+                    <File name="app\assets\images\jumbo3.jpg" />
+                    <File name="app\assets\images\rails.png" />
+                    <File name="app\assets\images\rewrite2.jpg" />
+                </Folder>
+                <Folder name="javascripts">
+                    <File name="app\assets\javascripts\application.js" />
+                    <File name="app\assets\javascripts\pages.js.coffee" />
+                    <File name="app\assets\javascripts\requests.js.coffee" />
+                    <File name="app\assets\javascripts\static_pages.js.coffee" />
+                </Folder>
+                <Folder name="stylesheets">
+                    <File name="app\assets\stylesheets\application.css" />
+                    <File name="app\assets\stylesheets\custom.css.scss" />
+                    <File name="app\assets\stylesheets\justified-nav.css" />
+                    <File name="app\assets\stylesheets\pages.css.scss" />
+                    <File name="app\assets\stylesheets\requests.css.scss" />
+                </Folder>
+            </Folder>
+            <Folder name="controllers">
+                <Folder name="concerns">
+                    <File name="app\controllers\concerns\.keep" />
+                </Folder>
+                <File name="app\controllers\application_controller.rb" />
+                <File name="app\controllers\pages_controller.rb" />
+                <File name="app\controllers\requests_controller.rb" />
+            </Folder>
+            <Folder name="helpers">
+                <File name="app\helpers\application_helper.rb" />
+                <File name="app\helpers\pages_helper.rb" />
+                <File name="app\helpers\requests_helper.rb" />
+            </Folder>
+            <Folder name="mailers">
+                <File name="app\mailers\.keep" />
+            </Folder>
+            <Folder name="models">
+                <Folder name="concerns">
+                    <File name="app\models\concerns\.keep" />
+                </Folder>
+                <File name="app\models\.keep" />
+                <File name="app\models\job.rb" />
+                <File name="app\models\page.rb" />
+                <File name="app\models\page_content.rb" />
+                <File name="app\models\request.rb" />
+                <File name="app\models\testimonial.rb" />
+            </Folder>
+            <Folder name="views">
+                <Folder name="layouts">
+                    <File name="app\views\layouts\application.html.erb" />
+                    <File name="app\views\layouts\application.html.haml" />
+                    <File name="app\views\layouts\_footer.html.haml" />
+                    <File name="app\views\layouts\_header.html.haml" />
+                    <File name="app\views\layouts\_popupform.html.haml" />
+                </Folder>
+                <Folder name="pages">
+                    <File name="app\views\pages\contacts.html.erb" />
+                    <File name="app\views\pages\free.html.haml" />
+                    <File name="app\views\pages\home.html.haml" />
+                    <File name="app\views\pages\prices.html.haml" />
+                    <File name="app\views\pages\rewrite.html.erb" />
+                    <File name="app\views\pages\test.html.haml" />
+                    <File name="app\views\pages\_button_custom.html.haml" />
+                    <File name="app\views\pages\_button_primary.html.erb" />
+                </Folder>
+                <Folder name="requests">
+                    <File name="app\views\requests\create.js.erb" />
+                    <File name="app\views\requests\destroy.js.erb" />
+                    <File name="app\views\requests\edit.js.erb" />
+                    <File name="app\views\requests\index.html.haml" />
+                    <File name="app\views\requests\open_popup.js.erb" />
+                    <File name="app\views\requests\update.js.erb" />
+                    <File name="app\views\requests\_form.html.haml" />
+                    <File name="app\views\requests\_requests.html.haml" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="bin">
+            <File name="bin\bundle" />
+            <File name="bin\rails" />
+            <File name="bin\rake" />
+        </Folder>
+        <Folder name="config">
+            <Folder name="environments">
+                <File name="config\environments\development.rb" />
+                <File name="config\environments\production.rb" />
+                <File name="config\environments\test.rb" />
+            </Folder>
+            <Folder name="initializers">
+                <File name="config\initializers\backtrace_silencers.rb" />
+                <File name="config\initializers\filter_parameter_logging.rb" />
+                <File name="config\initializers\inflections.rb" />
+                <File name="config\initializers\mime_types.rb" />
+                <File name="config\initializers\secret_token.rb" />
+                <File name="config\initializers\session_store.rb" />
+                <File name="config\initializers\wrap_parameters.rb" />
+            </Folder>
+            <Folder name="locales">
+                <File name="config\locales\en.yml" />
+            </Folder>
+            <File name="config\application.rb" />
+            <File name="config\boot.rb" />
+            <File name="config\database.yml" />
+            <File name="config\environment.rb" />
+            <File name="config\routes.rb" />
+        </Folder>
+        <Folder name="db">
+            <Folder name="migrate">
+                <File name="db\migrate\20131105143219_create_requests.rb" />
+                <File name="db\migrate\20131110003335_create_static_pages.rb" />
+                <File name="db\migrate\20131110003611_create_page_contents.rb" />
+                <File name="db\migrate\20131110004142_add_button_to_page_contents.rb" />
+                <File name="db\migrate\20131111043538_rename_static_page_to_page.rb" />
+                <File name="db\migrate\20131111054526_rename_column_static_page_id_to_page_id_in_page_contents.rb" />
+                <File name="db\migrate\20131111084533_add_pricing_testtext_requests.rb" />
+                <File name="db\migrate\20131113113043_create_testimonials.rb" />
+                <File name="db\migrate\20131113113203_create_jobs.rb" />
+            </Folder>
+            <File name="db\development.sqlite3" />
+            <File name="db\schema.rb" />
+            <File name="db\seeds.rb" />
+        </Folder>
+        <Folder name="doc">
+            <File name="doc\README_FOR_APP" />
+        </Folder>
+        <Folder name="lib">
+            <Folder name="assets">
+                <File name="lib\assets\.keep" />
+            </Folder>
+            <Folder name="tasks">
+                <File name="lib\tasks\.keep" />
+            </Folder>
+        </Folder>
+        <Folder name="log">
+            <File name="log\.keep" />
+            <File name="log\development (&#x041A;&#x043E;&#x043D;&#x0444;&#x043B;&#x0438;&#x043A;&#x0442;&#x0443;&#x044E;&#x0449;&#x0430;&#x044F; &#x043A;&#x043E;&#x043F;&#x0438;&#x044F; &#x0441; &#x043A;&#x043E;&#x043C;&#x043F;&#x044C;&#x044E;&#x0442;&#x0435;&#x0440;&#x0430; notebook 2013-11-13).log" />
+            <File name="log\development.log" />
+        </Folder>
+        <Folder name="public">
+            <File name="public\404.html" />
+            <File name="public\422.html" />
+            <File name="public\500.html" />
+            <File name="public\favicon.ico" />
+            <File name="public\robots.txt" />
+        </Folder>
+        <Folder name="script">
+            <File name="script\rails" />
+        </Folder>
+        <Folder name="spec">
+            <Folder name="models">
+                <File name="spec\models\job_spec.rb" />
+                <File name="spec\models\page_content_spec.rb" />
+                <File name="spec\models\static_page_spec.rb" />
+                <File name="spec\models\testimonial_spec.rb" />
+            </Folder>
+            <Folder name="requests">
+                <File name="spec\requests\static_pages_spec.rb" />
+            </Folder>
+            <File name="spec\spec_helper.rb" />
+        </Folder>
+        <Folder name="test">
+            <Folder name="controllers">
+                <File name="test\controllers\.keep" />
+                <File name="test\controllers\requests_controller_test.rb" />
+                <File name="test\controllers\static_pages_controller_test.rb" />
+            </Folder>
+            <Folder name="fixtures">
+                <File name="test\fixtures\.keep" />
+                <File name="test\fixtures\requests.yml" />
+            </Folder>
+            <Folder name="functional" />
+            <Folder name="helpers">
+                <File name="test\helpers\.keep" />
+                <File name="test\helpers\requests_helper_test.rb" />
+                <File name="test\helpers\static_pages_helper_test.rb" />
+            </Folder>
+            <Folder name="integration">
+                <File name="test\integration\.keep" />
+                <File name="test\integration\static_pages_test.rb" />
+            </Folder>
+            <Folder name="mailers">
+                <File name="test\mailers\.keep" />
+            </Folder>
+            <Folder name="models">
+                <File name="test\models\.keep" />
+                <File name="test\models\request_test.rb" />
+            </Folder>
+            <Folder name="performance">
+                <File name="test\performance\browsing_test.rb" />
+            </Folder>
+            <Folder name="unit" />
+            <File name="test\test_helper.rb" />
+        </Folder>
+        <Folder name="tmp">
+            <Folder name="cache">
+                <Folder name="assets">
+                    <Folder name="development">
+                        <Folder name="sass">
+                            <Folder name="8ae33a7a2aef877d5f07bb25b055a115ed2b65dd">
+                                <File name="tmp\cache\assets\development\sass\8ae33a7a2aef877d5f07bb25b055a115ed2b65dd\custom.css.scssc" />
+                                <File name="tmp\cache\assets\development\sass\8ae33a7a2aef877d5f07bb25b055a115ed2b65dd\pages.css.scssc" />
+                                <File name="tmp\cache\assets\development\sass\8ae33a7a2aef877d5f07bb25b055a115ed2b65dd\requests.css.scssc" />
+                                <File name="tmp\cache\assets\development\sass\8ae33a7a2aef877d5f07bb25b055a115ed2b65dd\static_pages.css.scssc" />
+                            </Folder>
+                            <Folder name="bde7c1055b66721fe35dca61497b99582cc3db35">
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\bootstrap.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_alerts.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_badges.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_breadcrumbs.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_button-groups.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_buttons.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_carousel.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_close.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_code.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_component-animations.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_dropdowns.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_forms.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_glyphicons.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_grid.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_input-groups.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_jumbotron.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_labels.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_list-group.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_media.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_mixins.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_modals.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_navbar.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_navs.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_normalize.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_pager.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_pagination.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_panels.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_popovers.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_print.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_progress-bars.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_responsive-utilities.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_scaffolding.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_tables.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_thumbnails.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_tooltip.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_type.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_utilities.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_variables.scssc" />
+                                <File name="tmp\cache\assets\development\sass\bde7c1055b66721fe35dca61497b99582cc3db35\_wells.scssc" />
+                            </Folder>
+                            <Folder name="ed0e6d9a56617826d2b28befe15a138eedb6ad61">
+                                <File name="tmp\cache\assets\development\sass\ed0e6d9a56617826d2b28befe15a138eedb6ad61\bootstrap.scssc" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="sprockets">
+                            <File name="tmp\cache\assets\development\sprockets\0b20e6077d2e3b3e2c8ada9ba6c59580" />
+                            <File name="tmp\cache\assets\development\sprockets\0c26b5bdda4226c000a26924f3c5b2b6" />
+                            <File name="tmp\cache\assets\development\sprockets\0cf41725157d648bc74c6620876df7db" />
+                            <File name="tmp\cache\assets\development\sprockets\11813633636e9226c7e9dd9c1ca9a002" />
+                            <File name="tmp\cache\assets\development\sprockets\13fe41fee1fe35b49d145bcc06610705" />
+                            <File name="tmp\cache\assets\development\sprockets\1664d2d9e8697deae893dd4a78a45b90" />
+                            <File name="tmp\cache\assets\development\sprockets\1a66d8334bb82817e826dbeba46cf0cc" />
+                            <File name="tmp\cache\assets\development\sprockets\1ba2331aab000dc355521d376087bf32" />
+                            <File name="tmp\cache\assets\development\sprockets\1c383c0bab1beee4cafc45eac714fbdf" />
+                            <File name="tmp\cache\assets\development\sprockets\1c87aa0c2f405b1a0b038784a6017688" />
+                            <File name="tmp\cache\assets\development\sprockets\204a8c83d37b18c60ee8e7f67c1162d0" />
+                            <File name="tmp\cache\assets\development\sprockets\23600ddcfafe90721860c51e38645cb9" />
+                            <File name="tmp\cache\assets\development\sprockets\265e2b2b82e55d63740039c77202f65d" />
+                            <File name="tmp\cache\assets\development\sprockets\26cd20afc66c265b77bac02fb3c86e07" />
+                            <File name="tmp\cache\assets\development\sprockets\2a143bf91b2709a39a323cfc1d663c90" />
+                            <File name="tmp\cache\assets\development\sprockets\2e8d408ca1b64a21387aad6fd19e8613" />
+                            <File name="tmp\cache\assets\development\sprockets\2f5173deea6c795b8fdde723bb4b63af" />
+                            <File name="tmp\cache\assets\development\sprockets\312ea17d81f429b46a0074d84a08e1cb" />
+                            <File name="tmp\cache\assets\development\sprockets\335b2bfeb6fa08e6ef5eb7bad8fe876f" />
+                            <File name="tmp\cache\assets\development\sprockets\33782ac2c4f2c06583a63316ccbe2e42" />
+                            <File name="tmp\cache\assets\development\sprockets\34df68c5b1f99217fc4addf02c2cae23" />
+                            <File name="tmp\cache\assets\development\sprockets\357970feca3ac29060c1e3861e2c0953" />
+                            <File name="tmp\cache\assets\development\sprockets\365b361d3736359c2164295445c885b1" />
+                            <File name="tmp\cache\assets\development\sprockets\37cdc22ba8481dc2a7a9f2c34f51ede5" />
+                            <File name="tmp\cache\assets\development\sprockets\3b025e646d50aafb2b20578c6d76a98f" />
+                            <File name="tmp\cache\assets\development\sprockets\3c3b837f2ed79c8b9e460c66eb4a5365" />
+                            <File name="tmp\cache\assets\development\sprockets\3fe8b2146ccbc70b0c3b2e03ee21401b" />
+                            <File name="tmp\cache\assets\development\sprockets\425b7ff510956d5f8d926a4c322e010e" />
+                            <File name="tmp\cache\assets\development\sprockets\492a2b20af44a616cc8e401b8e8de99d" />
+                            <File name="tmp\cache\assets\development\sprockets\4cfca7a5e34ade4c5b9f9d44d60b3394" />
+                            <File name="tmp\cache\assets\development\sprockets\4f59936a406814383f36d63690d73e5e" />
+                            <File name="tmp\cache\assets\development\sprockets\55221e76605400e71be34898d8a4d1d1" />
+                            <File name="tmp\cache\assets\development\sprockets\5538e0da387348e0cfdc5321de4acf4b" />
+                            <File name="tmp\cache\assets\development\sprockets\5863688f84393dd84e3f70efe76c3df0" />
+                            <File name="tmp\cache\assets\development\sprockets\58d13fa8238ddbe40924e2b2b8e2b892" />
+                            <File name="tmp\cache\assets\development\sprockets\58e54f809b308b1161db40c825ec105c" />
+                            <File name="tmp\cache\assets\development\sprockets\5fdcef964312a8f7ae5b80ed3d96655b" />
+                            <File name="tmp\cache\assets\development\sprockets\66ddc85bb3e52bcd9ac25146ad979502" />
+                            <File name="tmp\cache\assets\development\sprockets\696f4ae68697f0d0e153c89fb05212b4" />
+                            <File name="tmp\cache\assets\development\sprockets\69bb9fa5d7ce5c990102f54915794919" />
+                            <File name="tmp\cache\assets\development\sprockets\6cbce71ce7005ce7f2f7c7344ebb3a5e" />
+                            <File name="tmp\cache\assets\development\sprockets\72fd3eeea1d94c4292772d92c87f4ac9" />
+                            <File name="tmp\cache\assets\development\sprockets\75eea38d889ca9a9efe8673b60a658be" />
+                            <File name="tmp\cache\assets\development\sprockets\78f1a261c9c6633b28b7f1c4640296f5" />
+                            <File name="tmp\cache\assets\development\sprockets\7e052b98a69a5978544bf0bc1ceaaa96" />
+                            <File name="tmp\cache\assets\development\sprockets\7e7644dffd4cf9a674f2346ef6de5297" />
+                            <File name="tmp\cache\assets\development\sprockets\7fd9aba0a3aba31332e5c0901e933acd" />
+                            <File name="tmp\cache\assets\development\sprockets\82bf9ccf676306bdcc8b878f9e3ad902" />
+                            <File name="tmp\cache\assets\development\sprockets\836e24b6ba94bfe4583e35c808d62e1e" />
+                            <File name="tmp\cache\assets\development\sprockets\870784036e18c060e8376df9e561b019" />
+                            <File name="tmp\cache\assets\development\sprockets\89a318b154ec94ccccb60fdcba2f15c8" />
+                            <File name="tmp\cache\assets\development\sprockets\8bffa11c020777be64fea0a8a5e060f7" />
+                            <File name="tmp\cache\assets\development\sprockets\8d467b2390a5eab42a9d2d3d89792e32" />
+                            <File name="tmp\cache\assets\development\sprockets\8f2511830f6e103d24928dac99a5cf5a" />
+                            <File name="tmp\cache\assets\development\sprockets\90fc311c95a685477f8b0075ffd5b1f0" />
+                            <File name="tmp\cache\assets\development\sprockets\96c8a359d272a17849ef34c41615dcc7" />
+                            <File name="tmp\cache\assets\development\sprockets\9ada8128d386ea8de89d306bcf4f897d" />
+                            <File name="tmp\cache\assets\development\sprockets\a22b0ab91e98b8b3651bbab867c38f80" />
+                            <File name="tmp\cache\assets\development\sprockets\ad7a8ef1199b7b2d460b92f81d3c7b43" />
+                            <File name="tmp\cache\assets\development\sprockets\ae0bbcdc25e276525107ec076c7a42fa" />
+                            <File name="tmp\cache\assets\development\sprockets\afdd0fab8dfe6163d9a35354abbbad96" />
+                            <File name="tmp\cache\assets\development\sprockets\b57354f7b768fc4641f7ff46f862f676" />
+                            <File name="tmp\cache\assets\development\sprockets\b6a0599be223dd5fac0837767b0a4e08" />
+                            <File name="tmp\cache\assets\development\sprockets\b7cf1ee5c56fa85d2cf039f2541df071" />
+                            <File name="tmp\cache\assets\development\sprockets\bb672189cb1f6f176d9b982e6e301751" />
+                            <File name="tmp\cache\assets\development\sprockets\bc68d82eb31cd69f824dabf976129c78" />
+                            <File name="tmp\cache\assets\development\sprockets\cb4c2452aafb889fff938f630b33d20b" />
+                            <File name="tmp\cache\assets\development\sprockets\cc5b0868e47a58b1bd45a4db9518a7fb" />
+                            <File name="tmp\cache\assets\development\sprockets\cffd775d018f68ce5dba1ee0d951a994" />
+                            <File name="tmp\cache\assets\development\sprockets\d08309fc59e97c22a2b0d48254652afe" />
+                            <File name="tmp\cache\assets\development\sprockets\d4609c36261ee812f419dc0115e509b7" />
+                            <File name="tmp\cache\assets\development\sprockets\d6c7ce3ac277094b04690a43947ede22" />
+                            <File name="tmp\cache\assets\development\sprockets\d771ace226fc8215a3572e0aa35bb0d6" />
+                            <File name="tmp\cache\assets\development\sprockets\d7d5b37686831d37c4dd75e645f5e016" />
+                            <File name="tmp\cache\assets\development\sprockets\d7ead226577443b81f0a6da2f4b6b384" />
+                            <File name="tmp\cache\assets\development\sprockets\d9d89a5273bd06226dbe0dec36c87362" />
+                            <File name="tmp\cache\assets\development\sprockets\dda0f614553b052fa0fceeaee2cf226b" />
+                            <File name="tmp\cache\assets\development\sprockets\de2fd9fd11c04a582cdbbe3d84a35ae6" />
+                            <File name="tmp\cache\assets\development\sprockets\e4d30a7bc47eafcc1736496342eedcd8" />
+                            <File name="tmp\cache\assets\development\sprockets\edbf63d87f211c17de329b8a471a7caf" />
+                            <File name="tmp\cache\assets\development\sprockets\eec80504f833577e4f175c2ffaa5676a" />
+                            <File name="tmp\cache\assets\development\sprockets\f225b8f8288f399269b384878e25b875" />
+                            <File name="tmp\cache\assets\development\sprockets\f277dea038880e0054ef43ac84b2af31" />
+                            <File name="tmp\cache\assets\development\sprockets\f46ce11a5c130823ca77fff315e36acb" />
+                            <File name="tmp\cache\assets\development\sprockets\f55785c84d9b0e82e29d73ea21ca6fab" />
+                            <File name="tmp\cache\assets\development\sprockets\f5f738b65b700d4d150982435be7b758" />
+                            <File name="tmp\cache\assets\development\sprockets\f7cbd26ba1d28d48de824f0e94586655" />
+                            <File name="tmp\cache\assets\development\sprockets\f9d0b129320781287c21964588afaf2e" />
+                            <File name="tmp\cache\assets\development\sprockets\fde41fb503111b0aa4aab4f4d894d4e1" />
+                            <File name="tmp\cache\assets\development\sprockets\fdf5b60c6025d213804cad1e5c9af870" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+            </Folder>
+            <Folder name="pids">
+                <File name="tmp\pids\server.pid" />
+            </Folder>
+            <Folder name="sessions" />
+            <Folder name="sockets" />
+        </Folder>
+        <Folder name="vendor">
+            <Folder name="assets">
+                <Folder name="javascripts">
+                    <File name="vendor\assets\javascripts\.keep" />
+                </Folder>
+                <Folder name="stylesheets">
+                    <File name="vendor\assets\stylesheets\.keep" />
+                </Folder>
+            </Folder>
+            <Folder name="plugins" />
+        </Folder>
+        <File name=".gitattributes" />
+        <File name=".gitignore" />
+        <File name=".rspec" />
+        <File name="config.ru" />
+        <File name="Gemfile" />
+        <File name="Gemfile.lock" />
+        <File name="Rakefile" />
+        <File name="README.rdoc" />
+    </Project>
+</NotepadPlus>
