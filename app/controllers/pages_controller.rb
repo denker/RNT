@@ -28,9 +28,6 @@ class PagesController < ApplicationController
 		}
 	end
 
-	def contacts
-	end
-
 	def free
 		@button = {
 			:action => 'open_popup_path',

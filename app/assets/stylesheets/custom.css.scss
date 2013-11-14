@@ -65,14 +65,14 @@
 }
 
 @font-face {
-	font-family: "Rubl Sign"; src: url(/ruble.eot); 
+	font-family: "Rubl Sign"; src: url(/ruble.eot);
 }
 
-span.rur { 
+span.rur {
 	font-family: "Rubl Sign";
 	text-transform: uppercase;
-}    
-span.rur span { 
+}
+span.rur span {
 	position: absolute;
 	overflow: hidden;
 	width: .45em;
@@ -80,8 +80,8 @@ span.rur span {
 	margin: .1ex 0 0 -.55em;
 }
 
-span.rur span:before { 
-	content: '\2013'; 
+span.rur span:before {
+	content: '\2013';
 }
 
 .form-labels {
@@ -117,4 +117,14 @@ img.illustration {
 
 .cell {
 	display: table-cell;
+}
+.phone {
+	float:right;
+	vertical-align: middle;
+	line-height: 45px;
+}
+.number {
+	padding-right: 20px;
+	font-size: 20px;
+	font-style: bold;
 }
