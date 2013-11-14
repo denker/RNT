@@ -1,6 +1,5 @@
-﻿# #encoding: utf-8
-
-include PagesHelper
+﻿include PagesHelper
+include ApplicationHelper
 
 class PagesController < ApplicationController
 

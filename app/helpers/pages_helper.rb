@@ -17,10 +17,6 @@
 		[job.source, job.output] if job
 	end
 
-	def get_marksown_renderer
-		Redcarpet::Markdown.new(Redcarpet::Render::HTML)
-	end
-
 	def get_commercial_tiles
 		[
 			{

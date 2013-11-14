@@ -1,0 +1,20 @@
+%table.table
+	%tbody
+		%tr
+			%td= 'Имя'
+			%td= @request.name
+		%tr
+			%td= 'Телефон'
+			%td= @request.phone
+		%tr
+			%td= 'E-mail'
+			%td= @request.email
+		%tr
+			%td= 'Коммент'
+			%td= @request.comment
+		%tr
+			%td= 'Цена'
+			%td= @request.price_plan
+		%tr
+			%td= 'Текст'
+			%td= @markdown.render(@request.test_text).html_safe

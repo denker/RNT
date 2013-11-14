@@ -1,4 +1,5 @@
 include RequestsHelper
+include ApplicationHelper
 
 class RequestsController < ApplicationController
   before_action :load
@@ -8,6 +9,10 @@ class RequestsController < ApplicationController
     @fields = make_field_set(params)
   end
 
+  def show
+    @markdown = get_marksown_renderer
+  end
+
   def index
   end
 
@@ -15,6 +20,7 @@ class RequestsController < ApplicationController
   end
 
   def create
+    puts request_params
     @request = Request.new(request_params)
     if @request.save
       flash[:notice] = "Successfully created request."
@@ -43,7 +49,7 @@ class RequestsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def request_params
-    params.require(:request).permit(:name, :phone, :email, :comment)
+    params.require(:request).permit(:name, :phone, :email, :comment, :price_plan, :test_text)
   end
 
   def load

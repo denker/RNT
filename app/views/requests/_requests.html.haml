@@ -5,15 +5,17 @@
       %th Phone
       %th Email
       %th Comment
-      %th 
-      %th 
+      %th{style: 'width:50px;'} Price
+      %th{style: 'width:50px;'} Text
+      %th{style: 'width:70px;'}
 
   %tbody
     - @requests.each do |request|
       %tr
-        %td= request.name
+        %td= link_to request.name, request, remote: true, data: { toggle: 'modal', target: '#popUp'}
         %td= request.phone
         %td= request.email
         %td= request.comment
-        %td= link_to 'Edit', edit_request_path(request), :remote => true
+        %td= request.price_plan ? request.price_plan : '-'
+        %td= request.test_text ? '+' : '-'
         %td= link_to 'Destroy', request, :remote => true, method: :delete, data: { confirm: 'Are you sure?' }
