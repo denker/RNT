@@ -15,7 +15,7 @@ class RequestsController < ApplicationController
   end
 
   def create
-    @request = Request.new(request_params)    
+    @request = Request.new(request_params)
     if @request.save
       flash[:notice] = "Successfully created request."
       @requests = Request.all
@@ -24,7 +24,7 @@ class RequestsController < ApplicationController
 
   def update
     if @request.update(request_params)
-      flash[:notice] = "Request was successfully updated." 
+      flash[:notice] = "Request was successfully updated."
       @requests = Request.all
     end
   end
@@ -36,18 +36,18 @@ class RequestsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_request
-      @request = Request.find(params[:id])
-    end
-
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def request_params
-      params.require(:request).permit(:name, :phone, :email, :comment)
-    end
-
-    def load
-      @requests = Request.all
-      @request = Request.new
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_request
+    @request = Request.find(params[:id])
   end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def request_params
+    params.require(:request).permit(:name, :phone, :email, :comment)
+  end
+
+  def load
+    @requests = Request.all
+    @request = Request.new
+  end
+end

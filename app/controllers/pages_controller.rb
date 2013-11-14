@@ -12,6 +12,11 @@ class PagesController < ApplicationController
 			:color => 'success',
 			:params => {}
 		}
+		@after_button = @button.clone
+		@after_button2 = @button.clone
+		@after_button[:text] = 'Сделайте так же!'
+		@after_button2[:text] = 'Не верите? Попробуйте бесплатно!'
+		@after_button2[:params] = {:request_type => 'testdrive'}
 		@tiles = get_commercial_tiles
 		@job = get_job_sample
 		@markdown = get_marksown_renderer

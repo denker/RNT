@@ -11,7 +11,8 @@
               - puts 'test_text selected'
               .col-lg-12= f.text_area field[:name], size: "20x12", class: "form-control", placeholder: field[:placeholder]
             - when :select
-              .col-lg-9= f.select field[:name], options_for_select([['option1', '1'], ['option2', '2']]), class: "form-control"
+              .col-lg-9
+                = f.select field[:name], options_for_select(field[:options], field[:plan]), {multiple: true}, {class: "form-control"}
             - else
               .col-lg-9= f.send(field[:method], field[:name], class: "form-control", placeholder: field[:placeholder])
   .modal-footer

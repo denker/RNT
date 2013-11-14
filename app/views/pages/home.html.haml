@@ -31,6 +31,9 @@
 					%h4 Стало
 				.panel-body
 					= @markdown.render(@job.last).html_safe
+	.row.main-page-button
+		= render 'button_after'
+
 / отзывы
 - if @testimonials.size > 1
 	.row
@@ -47,3 +50,5 @@
 							%p= @testimonials[id].text
 						.panel-footer
 							%p= @testimonials[id].customer_name
+	.row.main-page-button
+		= render 'button_after2'

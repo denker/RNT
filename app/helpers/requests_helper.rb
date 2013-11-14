@@ -22,20 +22,16 @@
 		when 'pricing'
 			pricing_field = {
 				:method => :select,
-				:label => 'Тарифный план',
+				:label => 'Тариф',
 				:name => :price_plan,
 				:options => [
-					['price1', '1'],
-					['price2', '2']
-				]
+					['Стандарт: 110 рублей за тысячу знаков', 'standard'],
+					['Эконом: 60 рублей за тысячу знаков', 'economy'],
+					['Премиум: 290 рублей за тысячу знаков', 'vip']
+				],
+				:plan => params[:plan]
 			}
 			default_field_set << pricing_field
-			# case params[:plan]
-			# when 'standard'
-
-			# when 'vip'
-			# else
-			# end
 		else
 			default_field_set
 		end
