@@ -1,0 +1,13 @@
+%table.table.table-striped
+  %thead
+    %tr
+      %th Имя
+      %th Текст
+      %th 
+
+  %tbody
+    - @testimonials.each do |t|
+      %tr
+        %td= t.customer_name
+        %td= t.text.length > 60 ? t.text[0..60].strip + '...' : t.text
+        %td= link_to 'Destroy', t, :remote => true, method: :delete, data: { confirm: 'Are you sure?' }

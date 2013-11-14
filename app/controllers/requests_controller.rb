@@ -30,7 +30,7 @@ class RequestsController < ApplicationController
   end
 
   def destroy
-    @request.destroy    
+    @request.destroy
     flash[:notice] = "Request destroyed."
     @requests = Request.all
   end

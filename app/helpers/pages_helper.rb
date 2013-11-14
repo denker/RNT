@@ -14,7 +14,7 @@
 
 	def get_job_sample
 		job = random_records(1, Job.all).first
-		[job.source, job.output]
+		[job.source, job.output] if job
 	end
 
 	def get_marksown_renderer

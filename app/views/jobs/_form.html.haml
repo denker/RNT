@@ -1,0 +1,9 @@
+= form_for @job, id: 'j_form', remote: true do |f|
+	.row.form-group.field
+		.col-lg-3.form-labels= f.label 'Было'
+		.col-lg-9= f.text_area :source, size: "20x6", class: "form-control", placeholder: 'Было...'
+	.row.form-group.field
+		.col-lg-3.form-labels= f.label 'Стало'			
+		.col-lg-9= f.text_area :output, size: "20x6", class: "form-control", placeholder: 'Стало...'
+	.row.action
+		= f.submit class: "btn btn-success btn-lg", id: 't_button', style: 'float:right;'

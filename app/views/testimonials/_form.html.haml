@@ -1,0 +1,9 @@
+= form_for @testimonial, id: 't_form', remote: true do |f|
+	.row.form-group.field
+		.col-lg-3.form-labels= f.label 'Имя'
+		.col-lg-9= f.text_field :customer_name, class: "form-control", placeholder: 'Иван Иванов'
+	.row.form-group.field
+		.col-lg-3.form-labels= f.label 'Текст'			
+		.col-lg-9= f.text_area :text, size: "20x6", class: "form-control", placeholder: 'Охуенная контора...'
+	.row.action
+		= f.submit class: "btn btn-success btn-lg", id: 't_button', style: 'float:right;'

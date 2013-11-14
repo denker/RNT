@@ -15,21 +15,22 @@
 
 / примеры работ
 
-.row
-	%h2.main-page Наша работа
-.row.table
-	.col-lg-6.cell
-		.panel.panel-danger
-			.panel-heading
-				%h4 Было
-			.panel-body
-				= @markdown.render(@job.first).html_safe
-	.col-lg-6.cell
-		.panel.panel-success
-			.panel-heading
-				%h4 Стало
-			.panel-body
-				= @markdown.render(@job.last).html_safe
+- if @job
+	.row
+		%h2.main-page Наша работа
+	.row.table
+		.col-lg-6.cell
+			.panel.panel-danger
+				.panel-heading
+					%h4 Было
+				.panel-body
+					= @markdown.render(@job.first).html_safe
+		.col-lg-6.cell
+			.panel.panel-success
+				.panel-heading
+					%h4 Стало
+				.panel-body
+					= @markdown.render(@job.last).html_safe
 / отзывы
 - if @testimonials.size > 1
 	.row

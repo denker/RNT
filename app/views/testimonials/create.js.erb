@@ -1,0 +1,10 @@
+<% if @testimonial.errors.any? %>	
+	/* Тут должен быть обработчик ошибок */
+<% else %>
+	/* Clear the form */
+	$(":input:not(input[type=submit])").val("");
+	/* Replace the html of the div request_lists with the updated new one */
+	$("#list").html("<%=j render 'list' %>")
+	/* Hide popup after saving new request */
+
+<% end %>

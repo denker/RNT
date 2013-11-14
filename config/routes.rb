@@ -1,6 +1,8 @@
 ReNewText::Application.routes.draw do
   
   resources :requests
+  resources :testimonials
+  resources :jobs
 
   root 'pages#home'
 
