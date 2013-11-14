@@ -17,4 +17,4 @@
 			%td= @request.price_plan
 		%tr
 			%td= 'Текст'
-			%td= @markdown.render(@request.test_text).html_safe
+			%td= @markdown.render(@request.test_text).html_safe if @request.test_text
