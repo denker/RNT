@@ -1,4 +1,4 @@
-module PagesHelper
+﻿module PagesHelper
 
 	def random_records(number, records)
 		id_array = []
@@ -15,6 +15,10 @@ module PagesHelper
 	def get_job_sample
 		job = random_records(1, Job.all).first
 		[job.source, job.output]
+	end
+
+	def get_marksown_renderer
+		Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 	end
 
 	def get_commercial_tiles

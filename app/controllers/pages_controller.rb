@@ -14,7 +14,8 @@ class PagesController < ApplicationController
 		}
 		@tiles = get_commercial_tiles
 		@job = get_job_sample
-		@testimonials = random_testimonials(2)
+		@markdown = get_marksown_renderer
+		@testimonials = random_testimonials(4)
 	end
 
 	def rewrite
