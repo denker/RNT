@@ -18,5 +18,4 @@
 					%li.list-group-item= price_plan[:prop2]
 					%li.list-group-item= price_plan[:prop3]
 				.panel-footer
-					- @button = price_plan[:button]
-					= render 'button_custom'
+					= render 'button_custom', button: price_plan[:button]

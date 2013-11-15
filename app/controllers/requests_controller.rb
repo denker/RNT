@@ -1,3 +1,5 @@
+require 'open-uri'
+
 include RequestsHelper
 include ApplicationHelper
 
@@ -7,6 +9,7 @@ class RequestsController < ApplicationController
 
   def open_popup
     @fields = make_field_set(params)
+    @button_color = params[:color]
   end
 
   def show
@@ -20,11 +23,13 @@ class RequestsController < ApplicationController
   end
 
   def create
-    puts request_params
     @request = Request.new(request_params)
     if @request.save
       flash[:notice] = "Successfully created request."
       @requests = Request.all
+      url = 'https://littlesms.ru/api/message/send?user=tim.zuev@gmail.com&recipients=79201112500&message=New%20request%20on%20renewtext.ru&test=0&apikey=667sbE'
+      response = URI.parse(url).read
+      puts response
     end
   end
 

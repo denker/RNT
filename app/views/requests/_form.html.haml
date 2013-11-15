@@ -8,7 +8,6 @@
             .col-lg-3.form-labels= f.label field[:name], field[:label]
             - case field[:method]
             - when :text_area
-              - puts 'test_text selected'
               .col-lg-12= f.text_area field[:name], size: "20x12", class: "form-control", placeholder: field[:placeholder]
             - when :select
               .col-lg-9
@@ -17,4 +16,4 @@
               .col-lg-9= f.send(field[:method], field[:name], class: "form-control", placeholder: field[:placeholder])
   .modal-footer
     .actions
-      = f.submit class: "btn btn-success btn-lg", id: 'request_button'
+      = f.submit 'Отправить', class: "btn btn-#{@button_color || 'primary'} btn-lg", id: 'request_button'

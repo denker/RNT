@@ -3,7 +3,7 @@
 .jumbotron
 	%h1 Максимальный рерайт!
 	%p.lead Мы сделаем рерайт 300 тысяч знаков за сутки!
-	= render 'button_custom'
+	= render 'button_custom', button: {text: 'Заказать!', size: 'btn-lg', color: 'success', params: {color: 'success'}}
 
 / преимущества
 .row
@@ -11,7 +11,7 @@
 		.col-lg-6
 			%h2= tile[:header]
 			%p= tile[:body]
-			= render 'button_primary'
+			= render 'button_custom', button: tile[:button]
 
 / примеры работ
 
@@ -32,7 +32,7 @@
 				.panel-body
 					= @markdown.render(@job.last).html_safe
 	.row.main-page-button
-		= render 'button_after'
+		= render 'button_custom', button: {text: 'Заказать такой же себе!', size: 'lg', color: 'success', params: {color: 'success'}}
 
 / отзывы
 - if @testimonials.size > 1
@@ -51,4 +51,4 @@
 						.panel-footer
 							%p= @testimonials[id].customer_name
 	.row.main-page-button
-		= render 'button_after2'
+		= render 'button_custom', button: {text: 'Сомневаетесь? Попробуйте бесплатно!', size: 'lg', color: 'success', params: {request_type: 'testdrive', color: 'success'}}
